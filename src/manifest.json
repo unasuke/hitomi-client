@@ -15,5 +15,8 @@
       "matches": ["http://*/*", "https://*/*"],
       "js": ["post_history.js"]
     }
+  ],
+  "permissions": [
+    "storage"
   ]
 }
