@@ -1,3 +1,4 @@
-"use strict";
-
-chrome.runtime.sendMessage({"title": document.title, "url": document.URL})
+chrome.runtime.sendMessage({
+  title: document.title,
+  url: document.URL,
+});
