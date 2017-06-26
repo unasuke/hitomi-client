@@ -10,7 +10,8 @@
     "eslint": "^4.0.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.5.0",
-    "readable-stream": "^2.3.2"
+    "readable-stream": "^2.3.2",
+    "webpack": "^3.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
