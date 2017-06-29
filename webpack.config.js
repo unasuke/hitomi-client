@@ -5,6 +5,7 @@ module.exports = {
   entry: {
     background: './src/background.js',
     post_history: './src/post_history.js',
+    options_ui: './src/options_ui.js',
   },
   output: {
     filename: '[name].js',

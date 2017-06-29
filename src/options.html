@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <script type="text/javascript" src="options.js"></script>
+    <script type="text/javascript" src="options_ui.js"></script>
     <title>Hitomi options</title>
   </head>
   <body>
     <h1>Hitomi options</h1>
     <form id="options">
+      <div id="js-status"></div>
       <div>
         <label for="js-server-address">Server address</label>
         <input type="text" id="js-server-address" name="serverAddress">
@@ -15,6 +16,9 @@
       <div>
         <label for="js-server-secret">Server secret</label>
         <input type="text" id="js-server-secret" name="serverSecret">
+      </div>
+      <div>
+        <button id="js-form-button">save</button>
       </div>
     </form>
   </body>
