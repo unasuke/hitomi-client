@@ -10,7 +10,9 @@ export default class Option {
 
   fetchStorage(callback) {
     chrome.storage.sync.get(null, (value) => {
-      this.data = value.data;
+      if (Object.keys(value).length > 0) {
+        this.data = value.data;
+      }
       callback();
     });
   }
