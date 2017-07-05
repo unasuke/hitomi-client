@@ -1,4 +1,4 @@
-export default class Options {
+export default class Option {
   constructor() {
     this.data = {
       server: {

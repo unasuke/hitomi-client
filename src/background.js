@@ -1,6 +1,6 @@
-import Options from './options';
+import Option from './option';
 
-const options = new Options();
+const option = new Option();
 
 function receiveMessage(request) {
   const form = new FormData();
