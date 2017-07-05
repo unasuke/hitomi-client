@@ -1,3 +1,7 @@
+import Options from './options';
+
+const options = new Options();
+
 function receiveMessage(request) {
   const form = new FormData();
   form.append('history[title]', request.title);
