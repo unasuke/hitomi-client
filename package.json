@@ -16,6 +16,7 @@
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.5.0",
     "jest": "^20.0.4",
+    "jest-webextension-mock": "^2.1.0",
     "readable-stream": "^2.3.2",
     "regenerator-runtime": "^0.10.5",
     "webpack": "^3.0.0"
@@ -30,6 +31,11 @@
   "repository": {
     "type": "git",
     "url": ""
+  },
+  "jest": {
+    "setupFiles": [
+      "jest-webextension-mock"
+    ]
   },
   "author": "Yusuke Nakamura",
   "license": "MIT"
