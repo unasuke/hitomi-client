@@ -15,6 +15,7 @@
     "eslint": "^4.0.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.5.0",
+    "eslint-plugin-jest": "^20.0.3",
     "jest": "^20.0.4",
     "jest-webextension-mock": "^2.1.0",
     "readable-stream": "^2.3.2",
