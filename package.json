@@ -1,6 +1,8 @@
 {
   "name": "hitomi-client",
   "version": "0.0.0",
+  "author": "Yusuke Nakamura",
+  "license": "MIT",
   "description": "",
   "main": "index.js",
   "dependencies": {
@@ -37,7 +39,5 @@
     "setupFiles": [
       "jest-webextension-mock"
     ]
-  },
-  "author": "Yusuke Nakamura",
-  "license": "MIT"
+  }
 }
